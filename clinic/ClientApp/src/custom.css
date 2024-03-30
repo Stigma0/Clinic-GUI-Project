@@ -1,0 +1,53 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Space between form elements */
+  padding: 20px;
+  border: 1px solid #ddd; /* Simple border for the form */
+  border-radius: 5px; /* Slightly rounded corners */
+}
+
+.login-form input {
+  width: 200px; /* Fixed width for inputs */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  background-color: #6ea1d6;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #3b699a;
+}
